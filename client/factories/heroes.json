@@ -1,0 +1,566 @@
+[ {
+	"name" : "Earthshaker",
+	"type" : "strength" ,
+	"attackType" : "melee",
+	"role" : ["support", "initiator", "disabler", "nuker"]
+}, {
+	"name" : "Sven",
+	"type" : "stength",
+	"attackType" : "melee",
+	"role" : ["carry", "disabler", "initiator", "durable", "nuker"]
+}, {
+	"name" : "Tiny",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "nuker", "pusher", "initiator", "durable", "disabler"]
+}, {
+	"name" : "Kunkka",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "disabler", "initiator", "durable", "nuker"]
+}, {
+	"name" : "Beastmaster",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "disabler", "nuker", "durable"]
+}, {
+	"name" : "Dragon Knight",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "pusher", "durable", "disabler", "initiator", "nuker"]
+}, {
+	"name" : "Clockwerk",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "disabler", "durable", "nuker"]
+}, {
+	"name" : "Omniknight",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["durable", "support", "nuker"]
+}, {
+	"name" : "Huskar",
+	"type" : "strength",
+	"attackType" : "ranged",
+	"role" : ["carry", "durable", "initiator"]
+}, {
+	"name" : "Alchemist",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "support", "durable", "disabler", "initiator", "nuker"]
+}, {
+	"name" : "Brewmaster",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "initiator", "durable", "disabler", "nuker"]
+}, {
+	"name" : "Treant Protector",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["support", "initiator", "durable", "disabler", "escape"]
+}, {
+	"name" : "Io",
+	"type" : "strength",
+	"attackType" : "ranged",
+	"role" : ["support", "escape", "nuker"]
+}, {
+	"name" : "Centaur Warrunner",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["disabler", "initiator", "durable", "nuker", "escape"]
+}, {
+	"name" : "Timbersaw",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["nuker", "durable", "escape"]
+}, {
+	"name" : "Bristleback",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "durable", "initiator", "nuker"]
+}, {
+	"name" : "Tusk",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "disabler", "nuker"]
+}, {
+	"name" : "Elder Titan",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "disabler", "nuker", "durable"]
+}, {
+	"name" : "Legion Commander",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "disabler", "initiator", "durable", "nuker"]
+}, {
+	"name" : "Earth Spirit",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["nuker", "escape", "disabler", "initiator", "durable"]
+}, {
+	"name" : "Phoenix",
+	"type" : "strength",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "initiator", "escape", "disabler"]
+}, {
+	"name" : "Axe",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "durable", "disabler", "jungler"]
+}, {
+	"name" : "Pudge",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["disabler", "initiator", "durable", "nuker"]
+}, {
+	"name" : "Sand King",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "disabler", "nuker", "escape", "jungler"]
+}, {
+	"name" : "Slardar",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "durable", "initiator", "disabler", "escape"]
+}, {
+	"name" : "TideHunter",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "durable", "disabler", "nuker"]
+}, {
+	"name" : "Wraith King",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "support", "durable", "disabler", "initiator"]
+}, {
+	"name" : "Lifestealer",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "durable", "jungler", "escape", "disabler"]
+}, {
+	"name" : "Night Stalker",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "initiator", "durable", "disabler", "nuker"]
+}, {
+	"name" : "Doom",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "disabler", "initiator", "durable", "nuker"]
+}, {
+	"name" : "Spirit Breaker",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "initiator", "disabler", "durable", "escape"]
+}, {
+	"name" : "Lycan",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "pusher", "jungler", "durable", "escape"]
+}, {
+	"name" : "Chaos Knight",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["carry", "disabler", "durable", "pusher", "initiator"]
+}, {
+	"name" : "Undying",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["support", "durable", "disabler", "nuker"]
+}, {
+	"name" : "Magnus",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["initiator", "disabler", "nuker", "escape"]
+}, {
+	"name" : "Abaddon",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["support", "carry", "durable"]
+}, {
+	"name" : "Underlord",
+	"type" : "strength",
+	"attackType" : "melee",
+	"role" : ["support", "nuker", "disabler", "durable", "escape"]
+}, {
+	"name" : "Anti-Mage",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "escape", "nuker"]
+}, {
+	"name" : "Drow Ranger",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "disabler", "pusher"]
+}, {
+	"name" : "Juggernaut",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "pusher", "escape"]
+}, {
+	"name" : "Mirana",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "support", "escape", "nuker", "disabler"]
+}, {
+	"name" : "Morphling",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["escape", "carry", "durable", "nuker", "disabler"]
+}, {
+	"name" : "Phantom Lancer",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "escape", "pusher", "nuker"]
+}, {
+	"name" : "Vengeful Spirit",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["support", "initiator",  "disabler", "nuker", "escape"]
+}, {
+	"name" : "Riki",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "escape", "disabler"]
+}, {
+	"name" : "Sniper",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker"]
+}, {
+	"name" : "Templar Assassin",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "escape"]
+}, {
+	"name" : "Luna",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker", "pusher"]
+}, {
+	"name" : "Bounty Hunter",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["escape", "nuker"]
+}, {
+	"name" : "Ursa",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "jungler", "durable", "disabler"]
+}, {
+	"name" : "Gyrocopter",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker", "disabler"]
+}, {
+	"name" : "Lone Druid",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "pusher", "jungler", "durable"]
+}, {
+	"name" : "Naga Siren",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "support", "pusher", "disabler", "initiator", "escape"]
+}, {
+	"name" : "Troll Warlord",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "pusher", "disabler", "durable"]
+}, {
+	"name" : "Ember Spirit",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "nuker", "escape", "disabler", "initiator"]
+}, {
+	"name" : "Monkey King",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "escape", "disabler", "initiator"]
+}, {
+	"name" : "Bloodseeker",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "disabler", "jungler", "nuker", "initiator"]
+}, {
+	"name" : "Shadow Fiend",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker"]
+}, {
+	"name" : "Razor",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "durable", "nuker", "pusher"]
+}, {
+	"name" : "Venomancer",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "initiator", "pusher", "disabler"]
+}, {
+	"name" : "Faceless Void",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "initiator", "disabler", "escape", "durable"]
+}, {
+	"name" : "Phantom Assassin",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "escape"]
+}, {
+	"name" : "Viper",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "durable", "initiator", "disabler"]
+}, {
+	"name" : "Clinkz",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "escape", "pusher"]
+}, {
+	"name" : "Broodmother",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "pusher", "escape", "nuker"]
+}, {
+	"name" : "Weaver",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "escape"]
+}, {
+	"name" : "Spectre",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "durable", "escape"]
+}, {
+	"name" : "Meepo",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "escape", "nuker", "disabler", "initiator", "pusher"]
+}, {
+	"name" : "Nyx Assassin",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["disabler", "nuker", "initiator", "escape"]
+}, {
+	"name" : "Slark",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "escape", "disabler", "nuker"]
+}, {
+	"name" : "Medusa",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "disabler", "durable"]
+}, {
+	"name" : "Terrorblade",
+	"type" : "agility",
+	"attackType" : "melee",
+	"role" : ["carry", "pusher", "nuker"]
+}, {
+	"name" : "Arc Warden",
+	"type" : "agility",
+	"attackType" : "ranged",
+	"role" : ["carry", "escape", "nuker"]
+}, {
+	"name" : "Crystal Maiden",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "nuker", "jungler"]
+}, {
+	"name" : "Puck",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["initiator", "disabler", "escape", "nuker"]
+}, {
+	"name" : "Storm Spirit",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "escape", "nuker", "initiator", "disabler"]
+}, {
+	"name" : "Windranger",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "support", "disabler", "escape", "nuker"]
+}, {
+	"name" : "Zeus",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["nuker"]
+}, {
+	"name" : "Lina",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "carry", "nuker", "disabler"]
+}, {
+	"name" : "Shadow Shaman",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "pusher", "disabler", "nuker", "initiator"]
+}, {
+	"name" : "Tinker",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker", "pusher"]
+}, {
+	"name" : "Nature's Prophet",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "jungler", "pusher", "escape", "nuker"]
+}, {
+	"name" : "Enchantress",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "jungler", "pusher", "durable", "disabler"]
+}, {
+	"name" : "Jakiro",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "pusher", "disabler"]
+}, {
+	"name" : "Chen",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "jungler", "pusher"]
+}, {
+	"name" : "Silencer",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "support", "disabler", "initiator", "nuker"]
+}, {
+	"name" : "Ogre Magi",
+	"type" : "intelligence",
+	"attackType" : "melee",
+	"role" : ["support", "nuker", "disabler", "durable", "initiator"]
+}, {
+	"name" : "Rubick",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "nuker"]
+}, {
+	"name" : "Disruptor",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "nuker", "initiator"]
+}, {
+	"name" : "Keeper of the Light",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "disabler", "jungler"]
+}, {
+	"name" : "Skywrath Mage",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "disabler"]
+}, {
+	"name" : "Oracle",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "disabler", "escape"]
+}, {
+	"name" : "Techies",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["nuker", "disabler"]
+}, {
+	"name" : "Bane",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "nuker", "durable"]
+}, {
+	"name" : "Lich",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker"]
+}, {
+	"name" : "Lion",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "nuker", "initiator"]
+}, {
+	"name" : "Witch Doctor",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "disabler"]
+}, {
+	"name" : "Enigma",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["disabler", "jungler", "initiator", "pusher"]
+}, {
+	"name" : "Necrophos",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker", "durable", "disabler"]
+}, {
+	"name" : "Warlock",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "initiator", "disabler"]
+}, {
+	"name" : "Queen of Pain",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker", "escape"]
+}, {
+	"name" : "Death Prophet",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "pusher", "nuker", "disabler"]
+}, {
+	"name" : "Pugna",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["nuker", "pusher"]
+}, {
+	"name" : "Dazzle",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "disabler"]
+}, {
+	"name" : "Leshrac",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "support", "nuker", "pusher", "disabler"]
+}, {
+	"name" : "Dark Seer",
+	"type" : "intelligence",
+	"attackType" : "melee",
+	"role" : ["initiator", "jungler", "escape", "disabler"]
+}, {
+	"name" : "Batrider",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["initiator", "jungler", "disabler", "escape"]
+}, {
+	"name" : "Ancient Apparition",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "nuker"]
+}, {
+	"name" : "Invoker",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker", "disabler", "escape", "pusher"]
+}, {
+	"name" : "Outworld Devourer",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["carry", "nuker", "disabler"]
+}, {
+	"name" : "Shadow Demon",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "initiator", "nuker"]
+}, {
+	"name" : "Visage",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "nuker", "disabler", "durable", "pusher"]
+}, {
+	"name" : "Winter Wyvern",
+	"type" : "intelligence",
+	"attackType" : "ranged",
+	"role" : ["support", "disabler", "nuker"]
+} ]

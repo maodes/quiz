@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<!-- <link href="/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
+		<!-- <link href="/less/styles.less" rel="stylesheet/less" type="text/css" /> -->
+	</head>
+
+	<body>
+		<div ui-view></div>
+	</body>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="bower_components/less/dist/less.min.js"></script>
+
+	<script src="app.module.js"></script>
+	<script src="app.routes.js"></script>
+
+	<script src="/factories/factory.module.js"></script>
+	<script src="/factories/heroes.factory.js"></script>
+	<script src="/factories/quiz.factory.js"></script>
+
+	<script src="/quiz-list/quiz-list.module.js"></script>
+	<script src="/quiz-list/list.controller.js"></script>
+
+	<script src="/level1/level1.controller.js"></script>
+	<script src="/level2/level2.controller.js"></script>
+</html>

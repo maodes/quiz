@@ -1,0 +1,7 @@
+<h1>{{vm.time}}</h1>
+<h4>select {{vm.type}} heroes with a {{vm.attack}} attack and can be a {{vm.role}}</h4>
+<button class="btn btn-default" data-ng-click="vm.stopTimer()">Done</button>
+
+<ul class="list-group">
+	<li class="list-group-item" ng-repeat="hero in vm.allHeroes" ng-click="vm.selectHero(hero)"><a>{{hero.name}}</a></li>
+</ul>

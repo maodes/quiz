@@ -1,0 +1,17 @@
+{
+  "name": "dotaquiz",
+  "version": "1.0.0",
+  "description": "dota quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Maria Odessa P. Cubar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2",
+    "method-override": "^2.3.7"
+  }
+}

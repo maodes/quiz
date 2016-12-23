@@ -1,0 +1,3 @@
+<div data-ng-repeat="level in vm.levelList">
+	{{level.levelName}}, {{level.points}} <button class="btn btn-default" ui-sref="{{level.state}}" ng-disabled="vm.checkLevel(level)">Play</button>
+</div>
