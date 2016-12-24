@@ -6,7 +6,7 @@
 		var timer;
 
 		function filterRole ( role ) {
-			return role === self.role;
+			return role === self.roleModel;
 		}
 
 		function checkAnswer () {
@@ -36,11 +36,11 @@
 		function activate () {
 			heroesFactory.fetchHeroes().then( function ( res ) {
 				heroesFactory.bindHeroes( res.data );
-				self.role      = quizFactory.randomRole();
 				self.roles     = quizFactory.getRoles();
 				self.hero      = res.data[ Math.floor(Math.random() * res.data.length) ]
 				self.time      = 3;
 				self.stopTimer = stopTimer;
+				self.roleModel = '';
 
 				startTimer();
 

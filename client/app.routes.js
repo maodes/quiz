@@ -14,15 +14,18 @@
 			'controllerAs' : 'vm'
 		} )
 		.state( 'level1', {
-			// 'url' : '/start/level1',
 			'templateUrl' : '/level1/level1.html',
 			'controller' : 'Level1Controller',
 			'controllerAs' : 'vm'
 		} )
 		.state( 'level2', {
-			// 'url' : '/start/level2',
 			'templateUrl' : '/level2/level2.html',
 			'controller' : 'Level2Ctrl',
+			'controllerAs' : 'vm'
+		} )
+		.state( 'level3', {
+			'templateUrl' : '/level3/level3.html',
+			'controller' : 'Level3Ctrl',
 			'controllerAs' : 'vm'
 		} );
 	}

@@ -15,9 +15,19 @@
 
 		}
 
+		function getPassCode () {
+			return quizFactory.getPassCode();
+		}
+
+		function showPassCode () {
+			return getPassCode() !== '';
+		}
+
 		function activate () {
 			self.levelList = quizFactory.getLevels();
 			self.checkLevel = checkLevel;
+			self.getPassCode = getPassCode;
+			self.showPassCode = showPassCode;
 		}
 
 		activate();

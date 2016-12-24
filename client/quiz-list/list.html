@@ -1,3 +1,6 @@
 <div data-ng-repeat="level in vm.levelList">
-	{{level.levelName}}, {{level.points}} <button class="btn btn-default" ui-sref="{{level.state}}" ng-disabled="vm.checkLevel(level)">Play</button>
+	<div><h4><i>{{level.description}}</i></h4></div>
+	{{level.levelName}} <button class="btn btn-default" ui-sref="{{level.state}}" ng-disabled="vm.checkLevel(level)">Play</button>
 </div>
+
+<div ng-if="vm.showPassCode()">Pass Code: {{vm.getPassCode()}}</div>

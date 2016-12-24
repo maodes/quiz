@@ -4,6 +4,6 @@
 
 <div class="radio" ng-repeat="role in vm.roles">
 	<label>
-		<input type="radio"> {{role}}
+		<input type="radio" data-ng-model="vm.roleModel" data-ng-value="role"> {{role}}
 	</label>
 </div>

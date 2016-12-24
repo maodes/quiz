@@ -5,6 +5,7 @@
 		var levels = [ {
 			'level' : 1,
 			'levelName' : 'Click All You Can',
+			'description' : 'Click Heroes that fit the requirements',
 			'points' : 0,
 			'perfectPoints' : 10,
 			'state' : 'level1',
@@ -13,6 +14,7 @@
 		}, {
 			'level' : 2,
 			'levelName' : 'So, What\'s my role?',
+			'description' : 'Choose role for each Hero',
 			'points' : 0,
 			'perfectPoints' : 10,
 			'state' : 'level2',
@@ -21,6 +23,7 @@
 		}, {
 			'level' : 3,
 			'levelName' : 'Keyboard Wrecker',
+			'description' : 'Name as many heroes as you can under the given type',
 			'points' : 0,
 			'perfectPoints' : 10,
 			'state' : 'level3',
@@ -34,16 +37,18 @@
 
 		var attacktype = [ 'ranged', 'melee' ];
 
+		var passCode = '';
+
 		function randomType () {
-			return type[ Math.floor(Math.random() * type.length) ];
+			return type[ Math.floor( Math.random() * type.length) ];
 		}
 
 		function randomRole () {
-			return role[ Math.floor(Math.random() * role.length) ];
+			return role[ Math.floor( Math.random() * role.length ) ];
 		}
 
 		function randomAttack () {
-			return attacktype[ Math.floor(Math.random() * attacktype.length) ];
+			return attacktype[ Math.floor( Math.random() * attacktype.length ) ];
 		}
 
 		function getLevels () {
@@ -60,6 +65,14 @@
 
 		function pass ( index ) {
 			levels[ index ].pass = true;
+
+			if ( index === 2 ) {
+				passCode = 'BloodThorn'
+			}
+		}
+
+		function getPassCode () {
+			return passCode;
 		}
 
 		return {
@@ -69,7 +82,8 @@
 			'getLevels' : getLevels,
 			'getRoles' : getRoles,
 			'getHeroesWithCombination' : getHeroesWithCombination,
-			'pass' : pass
+			'pass' : pass,
+			'getPassCode' : getPassCode
 		}
 	}
 
